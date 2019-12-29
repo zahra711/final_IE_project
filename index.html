@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>رستوران های زنجیره ای شیلا</title>
+    <link rel="stylesheet" href="main.css" />
+
+    <div class="nav">
+        <ul>
+        <li><a class="buttonLink" href="#" onclick="sh1();">تجریش</a></li>
+        <li><a class="buttonLink" href="#" onclick="sh2();">چهارراه ولیعصر</a></li>
+        <li><a class="buttonLink" href="#" onclick="sh3();">گیشا</a></li>
+        <li><a class="buttonLink" href="#" onclick="sh4();">تهرانپارس</a></li>
+        <li><a class="buttonLink" href="#" onclick="sh5();">ستارخان</a></li>
+        </ul>
+    </div>
+
+
+</head>
+<body>
+    <div class="description"><p>.لطفا از منوی بالا شعبه مورد نظرخود را انتخاب کنید، تا محل آن روی نقشه نمایش داده شود</p></div>
+    <div class="bg">
+        <img width="540px" height="768px" src="bg.jpg">
+    </div>
+
+    <div id="map"></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuU6-m8WRL2X0DC-adQGt8lUyzMDzTWzs&callback=initMap"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
